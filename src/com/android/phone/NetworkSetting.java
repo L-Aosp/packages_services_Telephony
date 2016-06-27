@@ -35,7 +35,6 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
 import android.telephony.ServiceState;
-import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.Log;
 import android.telephony.SubscriptionManager;
@@ -93,6 +92,7 @@ public class NetworkSetting extends PreferenceActivity
     private PreferenceGroup mNetworkList;
     private Preference mSearchButton;
     private Preference mAutoSelect;
+    private Preference mPreferredNetworks;
 
     private final Handler mHandler = new Handler() {
         @Override
