@@ -192,12 +192,6 @@
         <item name="android:colorPrimaryDark">@color/network_operators_color_primary_dark</item>
     </style>
 
-    <style name="NetworkOperatorsSettingsTheme" parent="@android:style/Theme.Material.DayNight">
-        <item name="android:actionBarTheme">@android:style/ThemeOverlay.Material.Dark.ActionBar</item>
-        <item name="android:colorPrimary">@color/network_operators_color_primary</item>
-        <item name="android:colorPrimaryDark">@color/network_operators_color_primary_dark</item>
-    </style>
-
     <style name="Empty" parent="@android:style/Theme.Material.Light">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
